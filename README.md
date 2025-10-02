@@ -16,7 +16,7 @@ https://northpick.github.io/BPB-conversion.github/
 （2）本地直接使用：下载local-directly-use.html直接打开即可。
 
 ## 3.如何使用：
-###以V2RayN为例：
+以V2RayN为例：
 （1）复制BPB worker panel的任意订阅链接
 （2）如果你是cloudflare部署：打开你的部署网站，粘贴订阅链接至“输入订阅链接（可选）”处，点击“📡获取链接”，此时JSON数据会自动粘贴至下方。
 如果你是本地直接使用：在你的浏览器中打开订阅链接，全选复制JSON代码，将代码粘贴到打开的local-directly-use.html“或者直接粘贴JSON数据到这里...”处
