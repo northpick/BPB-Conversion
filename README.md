@@ -1,11 +1,15 @@
 # BPB-Conversion
-将 BPB Work Panel 的 JSON 订阅转换为可被 V2RayN 一键从剪切板导入的通用格式
+将 BPB Work Panel 的 JSON 订阅转换为可被 V2RayN 和 V2RayNG 一键从剪切板导入的通用格式
 
 # 0.关于本项目
-本人学设计不怎么会编程，项目是用Claude刷了一下午刷出来的，后续应该不会更新，主要解决新版BPB worker panel订阅链接无法导入V2RayN的问题。
+随着 BPB Work Panel 的更新，最新版的 BPB Work Panel 编码方式已不支持被 V2RayN 和 V2RayNG 识别，导致订阅无法更新或者节点真实连接始终为-1。
+此程序主要解决新版BPB worker panel订阅链接无法导入V2RayN的问题。
+本人学设计不怎么会编程，项目是用Claude刷了一下午刷出来的，后续应该不会大幅度更新。
 
 # 1.总览：项目分为cloudflare worker部署版本和本地直接使用的html版本。
 tips：本地使用浏览器会限制core，输入订阅链接可能无法获取到JSON数据，请手动粘贴JSON数据
+你可以直接访问我在GitHub上部署的静态网站（手动输入json数据）
+https://northpick.github.io/BPB-conversion.github/
 
 # 2.如何打开：
 （1）cloudflare worker部署：打开cloudflare->进入worker界面->创建helloword->修改代码->将项目worker.js替换掉cloudflare原本的worker.js->完成部署。
