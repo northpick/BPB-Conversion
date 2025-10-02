@@ -17,7 +17,7 @@ https://northpick.github.io/BPB-conversion.github/
 
 ## 3.如何使用：
 
-#以V2RayN为例：
+以V2RayN为例：
 
 （1）复制BPB worker panel的任意订阅链接
 （2）如果你是cloudflare部署：打开你的部署网站，粘贴订阅链接至“输入订阅链接（可选）”处，点击“📡获取链接”，此时JSON数据会自动粘贴至下方。
